@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
+* {
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  background-color: var(--neutral-background);
+}
+
+:root {
+  /* Background and general colors */
+  --neutral-neutral-700: #161619; /* Novo: Cor do container dos ícones sociais */
+  --neutral-neutral-600: #1A1B21; /* Novo: Cor do cartão */
+  --neutral-background: #23252C; /* Fundo geral */
+  --neutral-text: #FFFFFF; /* Cor de texto principal */
+  --neutral-muted-text: #C0C0C0; /* Texto secundário, como o site */
+
+  /* Button colors */
+  --button-linkedin-bg: #5093E2; /* Fundo do botão LinkedIn */
+  --button-email-bg: #FFFFFF; /* Fundo do botão de Email */
+  --button-text-dark: #000000; /* Cor do texto do botão de Email */
+  --button-linkedin-hover-bg: #3a7bbf; /* Cor de fundo do botão LinkedIn no hover */
+  
+  /* Other */
+  --text-highlight: #F3BF99; /* Cor do título "Frontend Developer" */
+}
